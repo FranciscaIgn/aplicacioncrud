@@ -1,0 +1,159 @@
+:root{
+    --primary-main:#558085;
+    --primary-dark:#558085;
+    --primary-light:#ffffff;
+    --secondary-main:#f5f0f5;
+    --secondary-dark: #827968;
+    --secondary-light: #79166c;
+    
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*sección navbar*/
+
+.nav-link:hover{
+    color: #b483af !important;
+}
+
+.navbar{
+background-color: #558085 !important;
+}
+
+.nav-logo{
+    height: 60px;
+    margin-right: 26px;
+    filter: brightness(3);
+}
+.navbar-nav .nav-item:first-child .nav-link{
+    margin-left: 20px;
+}
+
+.navbar-text a.nav-link{
+    margin-right: 20px;
+}
+.navbar-toggler{
+    line-height: 1;
+    color: #b483af !important;
+    background-color: #ffffff;
+    background: #ffffff;
+}
+.navbar-nav .nav-link{
+    color: #ffffff !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #b483af!important;
+}
+.nav-link{
+    color: #b483af;
+}
+nav.bg-body-tertiary{
+    background-color:#ffffff ;
+}
+
+/*sección crud*/
+
+body{
+    background: #ffffff;
+}
+*{
+    color:#79166c;
+}
+
+#btnUpdate{
+    display: none;
+}
+
+/* sección footer */ 
+
+.footer{
+    background-color:var(--primary-main);
+    padding: 50px 80px;
+    color:var(--secondary-main);
+}
+
+.footer-row{
+    display:flex;
+    flex-wrap:wrap; /*para que baje en grupo las columnas */
+    justify-content: center;
+}
+
+.footer-links{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-links h6{
+    font-size: 14px;
+    color:var(--secondary-main);
+    margin-bottom: 25px;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.footer-links ul {
+   list-style: none; 
+   padding:0;
+}
+
+.footer-links ul li {
+    margin-left: 0; 
+ }
+
+.footer-links ul li a {
+    font-size: 14px;
+    text-decoration:none;
+    color:var(--secondary-light);
+    display: block;
+    margin-bottom: 15px; 
+}
+
+.footer-links ul li a:hover {
+    padding-left: 4px;
+}
+.social-links{
+    display:flex;
+}
+.social-links a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    width: 40px;
+    background-color: var(--primary-dark);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 30px; 
+    border-radius: 50%;
+    color: var(--secondary-light);
+    border-color: var(--primary-light);
+    
+}
+
+.social-links a:hover {
+    background-color: var(--primary-light);
+}
+
+/* responsive*/
+
+
+@media screen and (max-width: 600px){
+    .titulo2 {
+        display: block; }
+        }
+   
+@media screen and (max-width: 600px) {
+    .footer-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+ }
+
+
+
